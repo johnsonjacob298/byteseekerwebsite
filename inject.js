@@ -1,4 +1,4 @@
-async function includeHTML() {
+document.addEventListener("DOMContentLoaded", async () => {
   const includes = document.querySelectorAll('[data-include]');
   for (const el of includes) {
     const file = el.getAttribute('data-include');
@@ -10,12 +10,8 @@ async function includeHTML() {
     }
   }
 
-  // 🔁 Delay theme toggle init to make sure injected DOM is parsed
-  setTimeout(() => {
-    if (typeof initThemeToggle === "function") {
-      initThemeToggle();
-    }
-  }, 50); // short delay
-}
-
-includeHTML();
+  // Safely run after injection
+  if (typeof initThemeToggle === "function") {
+    initThemeToggle();
+  }
+});

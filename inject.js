@@ -9,6 +9,8 @@ async function includeHTML() {
       el.innerHTML = "<p>Failed to load component: " + file + "</p>";
     }
   }
-}
 
+  // ✅ Call toggle setup after header/footer are injected
+  initThemeToggle();
+}
 includeHTML();

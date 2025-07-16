@@ -23,7 +23,7 @@ body.light-mode {
 
 body {
   background-color: var(--bg-color);
-  color: var(--text-color0);
+  color: var(--text-color);
   transition: background 0.3s, color 0.3s;
   min-height: 100vh;
   display: flex;
@@ -176,7 +176,7 @@ main.container {
 .setup h2 {
   font-size: 2rem;
   margin-bottom: 15px;
-  color: var(--accent-color);
+  color: var(--text-color0);
 }
 
 .setup ul {

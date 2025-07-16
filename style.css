@@ -197,6 +197,11 @@ main.container {
   padding-left: 25px;
 }
 
+.games ul {
+  list-style-type: disc;
+  padding-top: 50px;
+}
+
 .setup li,
 .games li {
   font-size: 1.1rem;

@@ -202,8 +202,7 @@ main.container {
   padding-top: 50px;
 }
 
-.setup li,
-.games li {
+.setup li {
   font-size: 1.1rem;
   line-height: 1.6;
   margin-bottom: 8px;

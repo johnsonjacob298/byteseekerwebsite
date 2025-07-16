@@ -153,11 +153,13 @@ footer {
     margin-bottom: 10px;
   }
 
-  .setup ul {
+  .setup ul,
+  .games ul {
     padding-left: 20px;
   }
 
-  .setup li {
+  .setup li,
+  .games li {
     font-size: 1rem;
     line-height: 1.6;
   }
@@ -189,12 +191,14 @@ main.container {
   color: var(--text-color0);
 }
 
-.setup ul {
+.setup ul,
+.games ul {
   list-style-type: disc;
   padding-left: 25px;
 }
 
-.setup li {
+.setup li,
+.games li {
   font-size: 1.1rem;
   line-height: 1.6;
   margin-bottom: 8px;

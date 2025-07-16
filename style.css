@@ -96,6 +96,7 @@ footer {
   transform: scale(1.1);
 }
 
+<!-- Main part of page -->
 main.container {
   background-color: rgba(255, 255, 255, 0.02); /* optional: faint box */
   border-radius: 8px;
@@ -106,12 +107,16 @@ main.container {
 }
 
 .about,
-.test {
+.test,
+.credits,
+.games {
   margin-bottom: 40px;
 }
 
 .about h2,
-.test h2 {
+.test h2,
+.credits h2,
+.games h2 {
   font-size: 2rem;
   margin-bottom: 15px;
   color: var(--text-color0);

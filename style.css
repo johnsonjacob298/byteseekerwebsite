@@ -154,11 +154,11 @@ footer {
   }
 
   .setup ul,
-  .games1 ul {
+  .games ul {
     padding-left: 20px;
   }
 
-  .games1 ul {
+  .games ul {
     padding-top: 35px;
   }
 
@@ -195,12 +195,12 @@ main.container {
 }
 
 .setup ul,
-.games1 ul {
+.games ul {
   list-style-type: disc;
   padding-left: 25px;
 }
 
-.games1 ul {
+.games ul {
   list-style-type: disc;
   padding-top: 40px;
 }

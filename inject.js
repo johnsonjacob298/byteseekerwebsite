@@ -1,4 +1,3 @@
-// inject.js
 async function includeHTML() {
   const includes = document.querySelectorAll('[data-include]');
   for (const el of includes) {
@@ -10,6 +9,13 @@ async function includeHTML() {
       el.innerHTML = `<p>Failed to load: ${file}</p>`;
     }
   }
-  initThemeToggle(); // ✅ initialize toggle after injection
+
+  // 🔁 Delay theme toggle init to make sure injected DOM is parsed
+  setTimeout(() => {
+    if (typeof initThemeToggle === "function") {
+      initThemeToggle();
+    }
+  }, 50); // short delay
 }
+
 includeHTML();

@@ -139,25 +139,25 @@ footer {
   }
 
   .about,
-  .temp,
+  .setup,
   .credits,
   .games {
     margin-bottom: 20px;
   }
 
   .about h2,
-  .temp h2,
+  .setup h2,
   .credits h2,
   .games h2 {
     font-size: 1.5rem;
     margin-bottom: 10px;
   }
 
-  .temp ul {
+  .setup ul {
     padding-left: 20px;
   }
 
-  .temp li {
+  .setup li {
     font-size: 1rem;
     line-height: 1.6;
   }
@@ -174,14 +174,14 @@ main.container {
 }
 
 .about,
-.temp,
+.setup,
 .credits,
 .games {
   margin-bottom: 40px;
 }
 
 .about h2,
-.temp h2,
+.setup h2,
 .credits h2,
 .games h2 {
   font-size: 2rem;
@@ -189,12 +189,12 @@ main.container {
   color: var(--text-color0);
 }
 
-.temp ul {
+.setup ul {
   list-style-type: disc;
   padding-left: 25px;
 }
 
-.temp li {
+.setup li {
   font-size: 1.1rem;
   line-height: 1.6;
   margin-bottom: 8px;

@@ -96,7 +96,74 @@ footer {
   transform: scale(1.1);
 }
 
-// Main part of page
+/* --- Mobile-Friendly Adjustments --- */
+@media (max-width: 600px) {
+  .header-flex {
+    padding: 0 10px;
+    gap: 8px;
+  }
+
+  .logo {
+    max-width: 80px;
+    height: auto;
+  }
+
+  .socials {
+    gap: 8px;
+  }
+
+  .toggle-theme {
+    padding: 5px;
+    margin-left: 5px;
+    align-self: center;
+  }
+
+  .main-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .main-nav a {
+    font-size: 1rem;
+    padding: 5px;
+  }
+
+  header, .main-nav {
+    margin-bottom: 10px;
+  }
+
+  .container {
+    width: 95%;
+    padding: 10px;
+  }
+
+  .about,
+  .temp,
+  .credits,
+  .games {
+    margin-bottom: 20px;
+  }
+
+  .about h2,
+  .temp h2,
+  .credits h2,
+  .games h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  .temp ul {
+    padding-left: 20px;
+  }
+
+  .temp li {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+}
+
+/* --- Main part of page --- */
 main.container {
   background-color: rgba(255, 255, 255, 0.02); /* optional: faint box */
   border-radius: 8px;
@@ -107,14 +174,14 @@ main.container {
 }
 
 .about,
-.test,
+.temp,
 .credits,
 .games {
   margin-bottom: 40px;
 }
 
 .about h2,
-.test h2,
+.temp h2,
 .credits h2,
 .games h2 {
   font-size: 2rem;
@@ -122,12 +189,12 @@ main.container {
   color: var(--text-color0);
 }
 
-.test ul {
+.temp ul {
   list-style-type: disc;
   padding-left: 25px;
 }
 
-.test li {
+.temp li {
   font-size: 1.1rem;
   line-height: 1.6;
   margin-bottom: 8px;

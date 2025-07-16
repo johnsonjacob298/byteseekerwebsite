@@ -95,3 +95,34 @@ footer {
 .toggle-theme:hover {
   transform: scale(1.1);
 }
+main.container {
+  background-color: rgba(255, 255, 255, 0.02); /* optional: faint box */
+  border-radius: 8px;
+  padding: 30px 20px;
+  margin: 40px auto;
+  width: 90%;
+  max-width: 960px;
+}
+
+.about,
+.test {
+  margin-bottom: 40px;
+}
+
+.about h2,
+.test h2 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: var(--text-color0);
+}
+
+.test ul {
+  list-style-type: disc;
+  padding-left: 25px;
+}
+
+.test li {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 8px;
+}

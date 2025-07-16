@@ -23,7 +23,7 @@ body.light-mode {
 
 body {
   background-color: var(--bg-color);
-  color: var(--text-color);
+  color: var(--text-color0);
   transition: background 0.3s, color 0.3s;
   min-height: 100vh;
   display: flex;

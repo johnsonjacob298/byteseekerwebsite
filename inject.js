@@ -1,3 +1,4 @@
+// inject.js
 async function includeHTML() {
   const includes = document.querySelectorAll('[data-include]');
   for (const el of includes) {
@@ -6,11 +7,9 @@ async function includeHTML() {
     if (resp.ok) {
       el.innerHTML = await resp.text();
     } else {
-      el.innerHTML = "<p>Failed to load component: " + file + "</p>";
+      el.innerHTML = `<p>Failed to load: ${file}</p>`;
     }
   }
-
-  // ✅ Call toggle setup after header/footer are injected
-  initThemeToggle();
+  initThemeToggle(); // ✅ initialize toggle after injection
 }
 includeHTML();

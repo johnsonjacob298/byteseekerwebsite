@@ -1,14 +1,16 @@
-// script.js
 function initThemeToggle() {
   const btn = document.querySelector('.toggle-theme');
   if (!btn) return;
 
-  // Check saved preference
+  // Apply saved preference
   const saved = localStorage.getItem('theme');
-  if (saved === 'dark') document.body.classList.add('dark-mode');
+  if (saved === 'light') {
+    document.body.classList.add('light-mode');
+  }
 
+  // Toggle on click
   btn.addEventListener('click', () => {
-    document.body.classList.toggle('dark-mode');
-    localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+    const isLight = document.body.classList.toggle('light-mode');
+    localStorage.setItem('theme', isLight ? 'light' : 'dark');
   });
 }

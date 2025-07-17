@@ -200,10 +200,9 @@ main.container {
 }
 
 .games ul {
-  list-style-type: disc;
-  margin: 40px;
   padding-left: 25px;
   padding-top: 40px;
+  margin: 40px;
 }
 
 .setup li {

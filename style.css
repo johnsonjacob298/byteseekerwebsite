@@ -96,6 +96,23 @@ footer {
   transform: scale(1.1);
 }
 
+.notification-bar {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 10px;
+  text-align: center;
+  position: fixed; /* Optional: Makes it stick to the top or bottom */
+  bottom: 0; /* Or top: 0; for top positioning */
+  width: 100%;
+  z-index: 100; /* Ensure it's on top of other content */
+}
+
+.notification-bar a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 /* --- Main part of page --- */

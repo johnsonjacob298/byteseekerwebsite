@@ -6,12 +6,31 @@
   <link rel="shortcut icon" type="image/x-icon" href="newFavicon.ico">
 </head>
 
+<script>
+  const announcementScript = document.createElement('script');
+  announcementScript.src = 'https://cdn.mida.so/js/banner.js';
+  announcementScript.onload = function() {
+    createNotificationBanner({
+      text: "This website is under development.",
+      buttonText: "",
+      buttonLink: "/",
+      isFixed: true,
+      backgroundColor: "#ffa500",
+      textColor: "#ffffff",
+      buttonBackgroundColor: "#ffa500",
+      buttonTextColor: "#ffffff",
+      fontSize: "14px",
+      buttonFontSize: "14px",
+      isCloseable: true,
+      closeButtonColor: "#ffffff",
+      uniqueKey: "under-dev"
+    });
+  };
+  document.head.appendChild(announcementScript);
+</script>
+
 <body>
 
-  <div class="notification-bar">
-  <p>This website is still under development.</p>
-</div>
-  
 <header>
   <div class="container header-flex">
     <a href="/"> <img src="newLogo.png" width="60" height="60" alt="ByteSeeker"> </a>

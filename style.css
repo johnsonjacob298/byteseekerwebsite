@@ -65,13 +65,13 @@ body {
   border-bottom: 1px solid #333;
 }
 
-.main-nav a, .socials a {
+.main-nav a, .socials a, .links a {
   color: var(--text-color);
   text-decoration: none;
   font-weight: bold;
 }
 
-.main-nav a:hover, .socials a:hover {
+.main-nav a:hover, .socials a:hover, .links a:hover {
   color: var(--accent-color);
 }
 
@@ -126,14 +126,14 @@ main.container {
 }
 
 .about,
-.setup,
+.links,
 .credits,
 .games {
   margin-bottom: 40px;
 }
 
 .about h2,
-.setup h2,
+.links h2,
 .credits h2,
 .games h2 {
   font-size: 2rem;
@@ -141,7 +141,7 @@ main.container {
   color: var(--text-color0);
 }
 
-.setup ul {
+.links ul {
   list-style-type: disc;
   padding-left: 25px;
 }
@@ -150,7 +150,7 @@ main.container {
   margin: 40px;
 }
 
-.setup li {
+.links li {
   font-size: 1.1rem;
   line-height: 1.6;
   margin-bottom: 8px;

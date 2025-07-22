@@ -125,7 +125,7 @@ footer {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  align-content: stretch;
+  align-content: center;
   box-sizing: border-box;
 }
 

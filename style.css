@@ -110,6 +110,13 @@ footer {
   box-sizing: border-box;
 }
 
+.image-caption {
+  width: 100%;
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 /* --- Main part of page --- */

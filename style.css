@@ -101,7 +101,7 @@ footer {
   padding: 0 30px;
 }
 
-.links {
+.links0 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -130,7 +130,13 @@ main.container {
 }
 
 .links {
-  align-items: center
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: stretch;
+  box-sizing: border-box;
 }
 
 .about,

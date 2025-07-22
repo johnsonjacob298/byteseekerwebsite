@@ -101,7 +101,7 @@ footer {
   padding: 0 30px;
 }
 
-.links0 {
+.links-img-space0 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -115,6 +115,10 @@ footer {
   text-align: center;
   margin-top: -10px;
   margin-bottom: 10px;
+}
+
+.link a {
+  padding: 20px 30px
 }
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">

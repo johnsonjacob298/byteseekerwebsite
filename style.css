@@ -65,13 +65,13 @@ body {
   border-bottom: 1px solid #333;
 }
 
-.main-nav a, .socials a, .links a {
+.main-nav a, .socials a {
   color: var(--text-color);
   text-decoration: none;
   font-weight: bold;
 }
 
-.main-nav a:hover, .socials a:hover, .links a:hover {
+.main-nav a:hover, .socials a:hover {
   color: var(--accent-color);
 }
 
@@ -114,19 +114,9 @@ footer {
 }
 
 .link-img {
-  max-width: 900px;
-  margin: 20px auto;
+  max-width: 100px;
+  max-height: 100px;
   padding: 0 30px;
-}
-
-.link-img0 {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: stretch;
-  align-content: stretch;
-  box-sizing: border-box;
 }
 
 .link-img-space {

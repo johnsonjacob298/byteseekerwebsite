@@ -96,10 +96,6 @@ footer {
   transform: scale(1.1);
 }
 
-.link-img {
-  padding: 0 30px;
-}
-
 .links-img-space0 {
   display: flex;
   flex-direction: row;

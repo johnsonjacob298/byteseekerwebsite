@@ -115,6 +115,10 @@ footer {
   padding: 0 30
 }
 
+.link {
+  align-content: center
+}
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 /* --- Main part of page --- */

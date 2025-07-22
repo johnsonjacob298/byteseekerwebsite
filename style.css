@@ -101,7 +101,7 @@ footer {
   padding: 0 30px;
 }
 
-.link-img-space {
+.links {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

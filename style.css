@@ -108,8 +108,11 @@ footer {
 .image-caption {
   width: 100%;
   text-align: center;
-  margin-top: -10px;
   margin-bottom: 10px;
+}
+
+.link-img {
+  padding: 0 30
 }
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">

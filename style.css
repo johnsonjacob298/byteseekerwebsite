@@ -126,7 +126,7 @@ footer {
   padding: 0 30px
 }
 
-.link {
+.link, .creation {
   align-content: center
 }
 
@@ -145,14 +145,14 @@ main.container {
 .about,
 .links,
 .credits,
-.games {
+.creations {
   margin-bottom: 40px;
 }
 
 .about h2,
 .links h2,
 .credits h2,
-.games h2 {
+.creations h2 {
   font-size: 2rem;
   margin-bottom: 15px;
   color: var(--text-color0);
@@ -163,7 +163,7 @@ main.container {
   padding-left: 25px;
 }
 
-.games ul {
+.creations ul {
   margin: 40px;
 }
 

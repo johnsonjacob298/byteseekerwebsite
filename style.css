@@ -96,7 +96,7 @@ footer {
   transform: scale(1.1);
 }
 
-.links-img-space {
+.link-img-space {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;

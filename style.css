@@ -96,7 +96,7 @@ footer {
   transform: scale(1.1);
 }
 
-.links-img-space0 {
+.links-img-space {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -112,10 +112,6 @@ footer {
   margin-bottom: 10px;
 }
 
-.links a {
-  padding: 20px 30px
-}
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 /* --- Main part of page --- */
@@ -126,16 +122,6 @@ main.container {
   margin: 40px auto;
   width: 90%;
   max-width: 960px;
-}
-
-.links {
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  align-content: stretch;
-  box-sizing: border-box;
 }
 
 .about,

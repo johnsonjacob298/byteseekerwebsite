@@ -113,22 +113,6 @@ footer {
   font-weight: bold;
 }
 
-.flex-item {
-  max-width: 900px;
-  margin: 20px auto;
-  padding: 0 30px;
-}
-
-.flex-column {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  align-items: stretch;
-  align-content: stretch;
-  box-sizing: border-box;
-}
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 /* --- Main part of page --- */

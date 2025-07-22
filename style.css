@@ -65,13 +65,13 @@ body {
   border-bottom: 1px solid #333;
 }
 
-.main-nav a, .socials a, .links a {
+.main-nav a, .socials a, .links a, .creations a {
   color: var(--text-color);
   text-decoration: none;
   font-weight: bold;
 }
 
-.main-nav a:hover, .socials a:hover, .links a:hover {
+.main-nav a:hover, .socials a:hover, .links a:hover, .creations a:hover {
   color: var(--accent-color);
 }
 

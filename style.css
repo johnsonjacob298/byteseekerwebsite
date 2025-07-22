@@ -106,6 +106,16 @@ footer {
   box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+    .link-img-space {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        justify-content: flex-start; /* makes it scroll from left */
+        gap: 10px; /* optional, add spacing between icons */
+    }
+}
+
 .image-caption {
   width: 100%;
   text-align: center;

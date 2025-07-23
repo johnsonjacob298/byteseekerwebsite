@@ -1,66 +1,78 @@
-/* mobile.css */
-:root {
-  --bg-color: #0d0d0d;
-  --text-color: #f5f5f5;
-  --accent-color: #ff0000;
-  --link-gap: 12px;
-}
+/* === mobile.css === */
 
-body {
+/* Reset */
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  font-family: 'Segoe UI', sans-serif;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
 }
 
-.container {
+/* Base HTML and body styling */
+html, body {
   width: 100%;
-  padding: 20px 10px;
-  box-sizing: border-box;
+  max-width: 100%;
+  overflow-x: hidden;  /* ✅ Prevent horizontal scroll */
+  background-color: #0d0d0d;
+  color: #f5f5f5;
+  font-family: 'Segoe UI', sans-serif;
 }
 
+/* Container for all page content */
+.container {
+  padding: 20px 10px;
+  width: 100%;
+}
+
+/* Title for link section */
 .links h2 {
   text-align: center;
   margin-bottom: 20px;
+  font-size: 1.4rem;
+  color: #ffffff;
 }
 
+/* Flex container for icons */
 .link-img-space {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: var(--link-gap);
+  gap: 12px;
   padding: 10px;
+  max-width: 100%;
 }
 
+/* Individual link wrapper */
 .link-img {
-  text-align: center;
   width: 90px;
+  text-align: center;
+  flex-shrink: 0;
 }
 
+/* Link icon images */
 .link-img img {
   width: 80px;
   height: 80px;
   object-fit: cover;
   border-radius: 10px;
+  display: block;
+  margin: 0 auto;
   transition: transform 0.2s ease;
 }
 
+/* Hover zoom */
 .link-img img:hover {
   transform: scale(1.05);
 }
 
+/* Label under icons */
 .link-img p {
-  margin-top: 6px;
   font-size: 0.8rem;
-  color: var(--text-color);
+  margin-top: 5px;
+  color: #f5f5f5;
 }
 
-/* Optional: adjust for very small screens */
+/* Extra small screen adjustment */
 @media (max-width: 360px) {
   .link-img {
     width: 70px;

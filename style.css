@@ -75,6 +75,11 @@ body {
   color: var(--accent-color);
 }
 
+/* Hover zoom */
+.link-img img:hover {
+  transform: scale(1.05);
+}
+
 footer {
   text-align: center;
   padding: 15px;

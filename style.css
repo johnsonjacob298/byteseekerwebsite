@@ -71,7 +71,7 @@ body {
   font-weight: bold;
 }
 
-.main-nav a:hover, .socials a:hover, .links a:hover, .links-mobile a:hover,  .creations a:hover {
+.main-nav a:hover, .socials a:hover, .links a:hover, .creations a:hover {
   color: var(--accent-color);
 }
 
@@ -157,7 +157,8 @@ main.container {
 .about h2,
 .links h2,
 .credits h2,
-.creations h2 {
+.creations h2,
+.links-mobile h2 {
   font-size: 2rem;
   margin-bottom: 15px;
   color: var(--text-color0);

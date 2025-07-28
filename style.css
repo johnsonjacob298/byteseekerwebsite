@@ -76,7 +76,7 @@ body {
 }
 
 /* Hover zoom */
-.link-img img:hover, .prod-img img:hover {
+.link-img img:hover, .buy-now-img img:hover {
   transform: scale(1.05);
 }
 
@@ -119,6 +119,7 @@ footer {
 .prod-img {
   display: flex;
   justify-content: center;
+  margin: auto;
   width: 200px;
   height: 200px;
 }

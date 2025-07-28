@@ -111,11 +111,16 @@ footer {
   box-sizing: border-box;
 }
 
+.buy-now-img {
+  display: flex;
+  justify-content: center;
+}
+
 .prod-img {
   display: flex;
   justify-content: center;
-  width: 100px
-  margin: auto;
+  width: 200px;
+  height: 200px;
 }
 
 .creation-img-space {

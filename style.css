@@ -101,7 +101,7 @@ body {
 }
 </style>
 
-footer {
+.footer {
   text-align: center;
   padding: 15px;
   background-color: var(--footer-bg);

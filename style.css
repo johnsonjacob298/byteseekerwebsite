@@ -111,6 +111,11 @@ footer {
   box-sizing: border-box;
 }
 
+.prod-img {
+  width: 100px
+  height: 100px
+}
+
 .creation-img-space {
   margin-top: 20px
 }

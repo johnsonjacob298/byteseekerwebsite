@@ -42,7 +42,6 @@ body {
 .header-flex {
   display: flex;
   justify-content: space-between;
-  background-color: var(--header-bg);
   align-items: center;
   flex-wrap: wrap;
 }

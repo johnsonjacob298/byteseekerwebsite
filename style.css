@@ -274,6 +274,8 @@ main.container {
 }
 
 .gallery {
-  width: 1000px;
+  width: 500px;
   display: flex;
+  overflow-x: scroll;
+  
 }

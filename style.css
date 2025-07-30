@@ -129,6 +129,11 @@ footer a {
   height: 200px;
 }
 
+.portal {
+  justify-content: center;
+  align-content: center;
+}
+
 .creation-img-space {
   margin-top: 20px
 }

@@ -149,6 +149,12 @@ footer a {
   padding: 0 30px
 }
 
+.shop-placeholder {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
 .link, .creation {
   align-content: center
 }

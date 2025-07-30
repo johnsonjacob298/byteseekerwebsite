@@ -180,9 +180,9 @@ footer a {
 .credits h2,
 .creations h2,
 .links-mobile h2,
-.shop h2, 
-.privacy h2, 
-.terms h2 {
+.shop h1, 
+.privacy h1, 
+.terms h1 {
   font-size: 2rem;
   margin-bottom: 15px;
   color: var(--text-color0);

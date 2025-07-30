@@ -94,7 +94,7 @@ footer a {
   color: var(--text-color);
 }
 
-.toggle-theme {
+.toggle-theme, .portal {
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -102,7 +102,7 @@ footer a {
   transition: transform 0.3s ease;
 }
 
-.toggle-theme:hover {
+.toggle-theme:hover, .portal:hover {
   transform: scale(1.1);
 }
 

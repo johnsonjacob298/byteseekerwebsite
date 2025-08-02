@@ -1,16 +1,17 @@
 const CACHE_NAME = 'byteseeker-cache-v1';
     const urlsToCache = [
       '/inject.js',
+      '/index-mobile.html',
       '/style.css',
       '/script.js',
-      '/index.html'
-      '/aboutme.html'
-      '/creations.html'
-      '/quotes.html'
-      '/shop.html'
-      '/testprod.html'
-      '/header.html'
-      '/footer.html'
+      '/index.html',
+      '/aboutme.html',
+      '/creations.html',
+      '/quotes.html',
+      '/shop.html',
+      '/testprod.html',
+      '/header.html',
+      '/footer.html',
       // Add other assets to cache
     ];
 

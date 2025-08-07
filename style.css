@@ -266,78 +266,87 @@ footer a {
   color: var(--text-color);
 }
 
-/* === Mobile Fixes for All Pages === */
+/* ========== Universal Mobile Layout Fixes ========== */
 @media (max-width: 768px) {
   body {
     font-size: 16px;
+    padding: 0 10px;
+    overflow-x: hidden;
   }
 
-  .header-flex {
+  header,
+  footer,
+  main,
+  section,
+  .container,
+  .content,
+  .nav,
+  .store-grid,
+  .form-container {
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  nav ul {
     flex-direction: column;
+    align-items: flex-start;
     gap: 10px;
+  }
+
+  nav ul li {
+    width: 100%;
+  }
+
+  .logo,
+  .site-title,
+  .social-icons {
+    display: block;
+    width: 100%;
     text-align: center;
+    margin: 10px 0;
   }
 
-  .main-nav {
-    flex-direction: column;
-    gap: 10px;
-    padding: 10px 0;
+  .hero,
+  .hero-text,
+  .hero img,
+  .about-section,
+  .product,
+  .form-container {
+    flex-direction: column !important;
+    text-align: center;
+    align-items: center;
   }
 
-  .link-img-space {
+  .hero img,
+  .product img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  form input,
+  form textarea,
+  form button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .store-grid {
+    display: flex;
     flex-direction: column;
     gap: 20px;
   }
 
-  .link-img img {
-    width: 80px;
-    height: 80px;
+  .product {
+    margin: 0 auto;
   }
 
-  .gallery {
-    width: 100%;
-    overflow-x: auto;
-  }
-
-  .gallery div {
-    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
-    grid-gap: 10px;
-  }
-
-  .prod-img img {
-    width: 150px;
-    height: 150px;
-  }
-
-  .buy-button {
-    padding: 10px 20px;
-    font-size: 14px;
-  }
-
-  .container {
-    padding: 10px;
-  }
-
-  h2 {
-    font-size: 1.5rem;
-  }
-
-  .image-caption {
-    font-size: 0.9rem;
-  }
-
-  .socials {
+  .social-icons {
     justify-content: center;
-    gap: 10px;
   }
 
-  .gallery-wrap {
-    flex-direction: column;
-  }
-
-  #prevBtn, #nextBtn {
-    margin: 20px;
-    width: 40px;
-    height: 40px;
+  .form-container form {
+    padding: 0;
   }
 }

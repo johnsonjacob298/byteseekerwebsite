@@ -140,8 +140,17 @@ footer a {
   margin-bottom: 10px;
 }
 
-.link-img, .creation-img, .prod-img {
+.creation-img, .prod-img {
   padding: 0 30px
+}
+
+.link-img img {
+  width: 100px;
+  height: 100px;
+}
+
+.link-img {
+  max-inline-size: 100px;
 }
 
 .shop-placeholder {
@@ -178,19 +187,8 @@ footer a {
   color: var(--text-color0);
 }
 
-.links ul {
-  list-style-type: disc;
-  padding-left: 25px;
-}
-
 .creations ul {
   margin: 40px;
-}
-
-.links li {
-  font-size: 1.1rem;
-  line-height: 1.6;
-  margin-bottom: 8px;
 }
 
 .gallery {

@@ -1,0 +1,69 @@
+body {
+    background-image: url('websiteBanner.png');
+    background-repeat: repeat;
+    color: white;
+}
+#txt {
+    font-family: Comic Sans MS;
+    position: relative;
+    color: #66b3ff;
+    text-align: center;
+    font-size: 144px;
+    opacity: 0.7;
+}
+span {
+    position: relative;
+}
+#nf {
+    position: absolute;
+    top: 344px;
+    left: 25%;
+}
+#first {
+    position: absolute;
+    top: 0;
+    left: 37%;
+}
+#second {
+    position: absolute;
+    top: 0;
+    left: 45%;
+}
+#third {
+    position: absolute;
+    top: 0;
+    left: 53%;
+}
+#for {
+    background-image: url('nextBtn.png');
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 700px;
+    display: block;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: -600px;
+    transition-timing-function: ease-out;
+}
+#nav {
+    color: white;
+    font-size: 14px;
+    list-style-type: none;
+    width: 500px;
+    position: relative;
+    top: 130px;
+    left: 95px;
+    text-align: center;
+}
+li {
+    display: inline;
+    margin-right: 10px;
+    padding: 1px;
+    background-color: red;
+    border-radius: 5px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}

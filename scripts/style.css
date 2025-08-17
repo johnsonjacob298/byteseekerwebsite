@@ -188,7 +188,7 @@ footer a {
   color: var(--text-color0);
 }
 
-.about a, {
+.about a {
   color: var(--text-color);
   text-decoration: none;
 }

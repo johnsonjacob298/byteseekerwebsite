@@ -1,5 +1,5 @@
 body {
-    background-image: url('websiteBanner.png');
+    background-image: url('img/websiteBanner.png');
     background-repeat: repeat;
     color: white;
 }
@@ -35,7 +35,7 @@ span {
     left: 53%;
 }
 #for {
-    background-image: url('nextBtn.png');
+    background-image: url('img/nextBtn.png');
     background-repeat: no-repeat;
     height: 400px;
     width: 700px;

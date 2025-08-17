@@ -187,6 +187,11 @@ footer a {
   color: var(--text-color0);
 }
 
+.about a, {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
 .creations ul {
   margin: 40px;
 }

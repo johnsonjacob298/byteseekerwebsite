@@ -4,4 +4,4 @@
 This is a personal website, made for fun. This is NOT a business website, or anything of the sort.</p>
 
 <h2 align="center">Links</h2>
-<li><a href="/todo.md">To Do List</a></li>
+<li><a href="/.github/todo.md">To Do List</a></li>

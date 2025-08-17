@@ -54,7 +54,7 @@ body {
 
 .socials {
   display: flex;
-  gap: 20px;
+  gap: 5px;
   align-items: center;
 }
 
@@ -74,7 +74,7 @@ body {
   font-weight: bold;
 }
 
-.main-nav a:hover, .socials a:hover, .links a:hover, .creations a:hover {
+.main-nav a:hover, .links a:hover, .creations a:hover {
   color: var(--accent-color);
 }
 
@@ -96,7 +96,7 @@ footer a {
   color: var(--text-color);
 }
 
-.toggle-theme, .portal {
+.toggle-theme {
   background-color: transparent;
   border: none;
   cursor: pointer;
@@ -104,7 +104,7 @@ footer a {
   transition: transform 0.3s ease;
 }
 
-.toggle-theme:hover, .portal:hover {
+.toggle-theme:hover {
   transform: scale(1.1);
 }
 
@@ -187,9 +187,8 @@ footer a {
   color: var(--text-color0);
 }
 
-.about a {
+.about a, .shop a {
   color: var(--text-color);
-  text-decoration: none;
 }
 
 .creations ul {

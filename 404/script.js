@@ -2,11 +2,11 @@ const BLACKLISTED_KEY_CODES = [38,40,37,39,18,20,17,16,9,27,144];
 //List of commands
 const COMMANDS = {
     "help":
-        'The page you want to visit does not exist, or it may have been deleted, or the wrong address was entered. To see the commands, enter the word <span class=\"red\"> commands</span>',
+        'The page you want to visit does not exist. To see the list of commands, enter the word <span class=\"red\"> commands</span>',
     "exit":
         "",
     "report":
-        "<span class='green'>This page report has been successfully sent to support.</span>",
+        "<span class='green'>This page report has been successfully sent to support. You may now <span class\"red\">exit</span></span>",
     "commands":
         "List of commands: <span class=\"red\"> help</span> , <span class=\"red\"> report</span> ,<span class=\"red\"> exit</span>\n",
     "cls":
@@ -41,7 +41,7 @@ const execute = function executeCommand(input) {
     }
     //If what the user entered is not in the command list
     if (!COMMANDS.hasOwnProperty(input)) {
-        output = `<p>The command entered is not correct</p>`;
+        output = `<p>The command entered does not exist</p>`;
     }
     //If user enter the word cls
     else if (input === "cls") {

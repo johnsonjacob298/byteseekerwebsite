@@ -76,7 +76,7 @@ let str = '';
 const key = function keyEvent(event) {
     let currentKey = event.key;
     Keyboard.focus();
-    Keyboard.innerHTML = event.target.value;
+    Keyboard.textContent = event.target.value;
     if (BLACKLISTED_KEY_CODES.includes(event.keyCode)) {
         return
     }

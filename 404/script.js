@@ -97,7 +97,7 @@ const key = function keyEvent(event) {
             str += currentKey;
         }
         event.preventDefault();
-        userInput.innerHTML = str;
+        userInput.textContent = str;
     }
 }
 //when user click 'BackSpace' key
